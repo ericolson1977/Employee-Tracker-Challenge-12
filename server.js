@@ -20,3 +20,15 @@ const db = mysql.createConnection(
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
   });
+
+
+  //switch statements
+
+  // app.get("/", (req, res)=>{
+  //   db.query(......)
+  // })
+
+  // https://www.w3schools.com/sql/sql_groupby.asp
+
+  // req.params
+  // req.body
