@@ -1,7 +1,6 @@
 const express = require('express');
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
-const fs = require('fs');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -238,10 +237,5 @@ app.listen(PORT, () => {
 
 init();
 
-//Why is prompts listed twice (calling init in the functions. Need a .then "Another thing I didnt mention is in order to use .then with the query you need to first make it a promise like
-    //db.promise().query("query")), 
-//Remove index columns  (need to format then date PRIOR to hitting the console.table)
-//Modularization
-//Bonus
 //README
 //Video Walkthrough
